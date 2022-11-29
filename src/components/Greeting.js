@@ -11,6 +11,7 @@ const Greeting = () => {
   }, [dispatch]);
 
   return (
+    
     <h2>{greet.message}</h2>
 
   );
